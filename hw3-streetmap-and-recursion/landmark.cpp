@@ -1,3 +1,4 @@
+
 // This program exercises inheritance and polymorphism to create subclasses of Landmark objects,
 // namely Restaurants, Hotels, Hotels, and Hospitals
 
@@ -88,7 +89,7 @@ private:
 // Hospital adds an icon and icon color -> they are not unique, because
 // constraints disallow mutators in Landmark
 
-void display(const Landmark* lm)
+/*void display(const Landmark* lm)
 {
     cout << "Display a " << lm->color() << " " << lm->icon() << " icon for "
     << lm->name() << "." << endl;
@@ -114,4 +115,4 @@ int main()
     cout << "Cleaning up." << endl;
     for (int k = 0; k < 4; k++)
         delete landmarks[k];
-}
+}*/

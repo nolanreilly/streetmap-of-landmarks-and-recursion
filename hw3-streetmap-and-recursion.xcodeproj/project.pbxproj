@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		306EF4A41C642296004CF896 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 306EF4A31C642296004CF896 /* main.cpp */; };
+		306EF4A41C642296004CF896 /* landmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 306EF4A31C642296004CF896 /* landmark.cpp */; };
+		306EF4AB1C694D54004CF896 /* linear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 306EF4AA1C694D54004CF896 /* linear.cpp */; };
+		308EC4491C6ACEB300ADBFE8 /* maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 308EC4481C6ACEB300ADBFE8 /* maze.cpp */; };
+		308EC44B1C6ADE5800ADBFE8 /* tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 308EC44A1C6ADE5800ADBFE8 /* tree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,10 @@
 
 /* Begin PBXFileReference section */
 		306EF4A01C642296004CF896 /* hw3-streetmap-and-recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hw3-streetmap-and-recursion"; sourceTree = BUILT_PRODUCTS_DIR; };
-		306EF4A31C642296004CF896 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		306EF4A31C642296004CF896 /* landmark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = landmark.cpp; sourceTree = "<group>"; };
+		306EF4AA1C694D54004CF896 /* linear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linear.cpp; sourceTree = "<group>"; };
+		308EC4481C6ACEB300ADBFE8 /* maze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maze.cpp; sourceTree = "<group>"; };
+		308EC44A1C6ADE5800ADBFE8 /* tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tree.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 		306EF4A21C642296004CF896 /* hw3-streetmap-and-recursion */ = {
 			isa = PBXGroup;
 			children = (
-				306EF4A31C642296004CF896 /* main.cpp */,
+				306EF4A31C642296004CF896 /* landmark.cpp */,
+				306EF4AA1C694D54004CF896 /* linear.cpp */,
+				308EC4481C6ACEB300ADBFE8 /* maze.cpp */,
+				308EC44A1C6ADE5800ADBFE8 /* tree.cpp */,
 			);
 			path = "hw3-streetmap-and-recursion";
 			sourceTree = "<group>";
@@ -118,7 +127,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				306EF4A41C642296004CF896 /* main.cpp in Sources */,
+				306EF4AB1C694D54004CF896 /* linear.cpp in Sources */,
+				308EC44B1C6ADE5800ADBFE8 /* tree.cpp in Sources */,
+				306EF4A41C642296004CF896 /* landmark.cpp in Sources */,
+				308EC4491C6ACEB300ADBFE8 /* maze.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +247,7 @@
 				306EF4A91C642297004CF896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
